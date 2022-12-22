@@ -1,0 +1,35 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding:4rem;
+}
+
+nav a{
+    margin-left: 1.5rem;
+}
+a {
+    text-decoration: none;
+    color:blue;
+    margin-left: 10px;
+}
+.Kontakt {
+background-color: aquamarine;
+padding: 5px;
+border-radius: 8px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.Kontakt:hover {
+    background-color: aqua;
+    padding: 10px;
+}
